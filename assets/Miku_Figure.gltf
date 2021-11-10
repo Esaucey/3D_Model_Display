@@ -1,0 +1,352 @@
+{
+    "asset": {
+        "copyright": "(C)2021 erics",
+        "generator": "maya2glTF v1.3.1 efac516101b7",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                1,
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pPlane2",
+            "mesh": 0,
+            "translation": [
+                -0.7634949088096619,
+                12.186543464660645,
+                -0.403698205947876
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "scale": [
+                22.13243865966797,
+                24.337560653686525,
+                24.337560653686525
+            ]
+        },
+        {
+            "name": "pCylinder1",
+            "mesh": 1,
+            "scale": [
+                7.243892192840576,
+                1.0601458549499512,
+                7.243892192840576
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pPlaneShape2",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "pCylinderShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert2",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            },
+            "alphaMode": "BLEND"
+        },
+        {
+            "name": "lambert4",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.18199999630451206,
+                    0.3748464286327362,
+                    0.4000000059604645,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "images": [
+        {
+            "uri": "Miku.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pPlaneShape2#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 1440,
+            "max": [
+                353
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pPlaneShape2#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 354,
+            "max": [
+                0.9764555096626282,
+                0.9672325253486632,
+                1.0
+            ],
+            "min": [
+                -0.99996817111969,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pPlaneShape2#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 4248,
+            "componentType": 5126,
+            "count": 354,
+            "max": [
+                0.5249207019805908,
+                0.015947937965393068,
+                0.5000005960464478
+            ],
+            "min": [
+                -0.5235415101051331,
+                0.0,
+                -0.525523841381073
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pPlaneShape2#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 354,
+            "max": [
+                1.0,
+                0.9999535083770752,
+                0.999988853931427,
+                1.0
+            ],
+            "min": [
+                -0.9996109008789064,
+                -0.9999535083770752,
+                -0.9999454617500304,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pPlaneShape2#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 354,
+            "max": [
+                1.0291748046875,
+                0.9936941862106324
+            ],
+            "min": [
+                -0.029296875,
+                -0.004975200165063143
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pCylinderShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 2880,
+            "componentType": 5123,
+            "count": 600,
+            "max": [
+                209
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pCylinderShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 8496,
+            "componentType": 5126,
+            "count": 210,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCylinderShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 11016,
+            "componentType": 5126,
+            "count": 210,
+            "max": [
+                1.1772836446762086,
+                1.0,
+                1.177283763885498
+            ],
+            "min": [
+                -1.1772838830947877,
+                -1.0,
+                -1.1772840023040772
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pCylinderShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 5664,
+            "componentType": 5126,
+            "count": 210,
+            "max": [
+                1.0,
+                1.890000049797891e-7,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -5.859999987478659e-7,
+                -1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pCylinderShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 2832,
+            "componentType": 5126,
+            "count": 210,
+            "max": [
+                0.65625,
+                1.0000001192092896
+            ],
+            "min": [
+                0.3437499701976776,
+                0.0
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "Miku_Figure/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 27072,
+            "byteLength": 4080,
+            "target": 34963
+        },
+        {
+            "name": "Miku_Figure/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 9024,
+            "byteLength": 13536,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "Miku_Figure/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 9024,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "Miku_Figure/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 22560,
+            "byteLength": 4512,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "Miku_Figure/data",
+            "byteLength": 31152,
+            "uri": "Miku_Figure0.bin"
+        }
+    ]
+}
