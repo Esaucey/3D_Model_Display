@@ -1,0 +1,11 @@
+{
+	"miku_dance": {
+		"version": 1,
+		"id": "miku_dance",
+		"name": "1",
+		"kind": "Puppeteer",
+		"mood": null,
+		"postPlaybackMood": null,
+		"duration": 49.13333333
+	}
+}
